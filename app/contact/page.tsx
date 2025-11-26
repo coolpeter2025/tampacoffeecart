@@ -34,7 +34,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-5 gap-12">
             {/* Contact Info */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 order-2 lg:order-1">
               <h2 className="text-2xl font-display font-bold text-espresso mb-8">
                 Contact Information
               </h2>
@@ -118,7 +118,7 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3 order-1 lg:order-2">
               <div className="bg-cream-50 rounded-2xl p-8 md:p-12">
                 <h2 className="text-2xl font-display font-bold text-espresso mb-2">
                   Request a Free Quote
