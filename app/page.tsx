@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div className="stagger-item">
+            <div className="stagger-item order-2 lg:order-1">
               <span className="inline-block px-4 py-2 bg-coffee-500/10 rounded-full text-coffee-600 font-semibold text-sm mb-6">
                 ☕ Premium Mobile Espresso Service
               </span>
@@ -84,7 +84,7 @@ export default function HomePage() {
             </div>
 
             {/* Right - Hero Image */}
-            <div className="relative stagger-item">
+            <div className="relative stagger-item order-1 lg:order-2">
               <div className="relative">
                 <div className="w-full aspect-square max-w-lg mx-auto relative">
                   {/* Hero Image */}
