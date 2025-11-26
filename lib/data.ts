@@ -154,10 +154,10 @@ export const siteConfig = {
     keywords: ['coffee cart', 'mobile coffee', 'espresso catering', 'wedding coffee bar', 'corporate coffee service', 'Tampa Bay', 'Tampa', 'St Petersburg', 'Clearwater'],
   },
   trustSignals: [
+    { icon: 'Award', text: '50+', description: 'Events Served' },
+    { icon: 'MapPin', text: '25+', description: 'Tampa Bay Areas' },
+    { icon: 'Coffee', text: '500+', description: 'Drinks Served' },
     { icon: 'Star', text: '5-Star Rated', description: 'Consistently rated 5 stars by happy clients' },
-    { icon: 'Award', text: '100 Events', description: 'Successfully served over 100 Tampa Bay events' },
-    { icon: 'Clock', text: 'On-Time Guarantee', description: 'We arrive early and set up before your guests' },
-    { icon: 'Shield', text: 'Fully Insured', description: 'Licensed and insured for your peace of mind' },
   ],
   features: [
     'Professional baristas',

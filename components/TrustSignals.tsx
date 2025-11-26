@@ -1,4 +1,4 @@
-import { Star, Award, Clock, Shield } from 'lucide-react'
+import { Star, Award, Clock, Shield, MapPin, Coffee } from 'lucide-react'
 import { siteConfig } from '@/lib/data'
 
 const iconMap = {
@@ -6,6 +6,8 @@ const iconMap = {
   Award,
   Clock,
   Shield,
+  MapPin,
+  Coffee,
 }
 
 export default function TrustSignals() {
