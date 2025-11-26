@@ -84,7 +84,7 @@ export default function HomePage() {
             </div>
 
             {/* Right - Hero Image */}
-            <div className="relative stagger-item hidden lg:block">
+            <div className="relative stagger-item">
               <div className="relative">
                 <div className="w-full aspect-square max-w-lg mx-auto relative">
                   {/* Hero Image */}
@@ -129,9 +129,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Trust Signals */}
-      <TrustSignals />
 
       {/* Services Section */}
       <section className="py-20 bg-cream-50">
