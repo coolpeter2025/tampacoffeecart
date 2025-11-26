@@ -42,7 +42,6 @@ export default function ServicesPage() {
                 shortName={service.shortName}
                 icon={service.icon}
                 description={service.description}
-                priceRange={service.priceRange}
               />
             ))}
           </div>
