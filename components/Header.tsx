@@ -98,19 +98,12 @@ export default function Header() {
                 </Link>
               ))}
               <div className="mt-4 pt-4 border-t border-coffee-200/50 px-4 space-y-3">
-                <a
-                  href={`tel:${siteConfig.phoneClean}`}
-                  className="flex items-center gap-2 text-coffee-700 font-semibold"
-                >
-                  <Phone className="w-5 h-5" />
-                  <span>{siteConfig.phone}</span>
-                </a>
                 <Link
                   href="/contact"
                   className="btn-primary w-full text-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Get a Quote
+                  Book It
                 </Link>
               </div>
             </div>

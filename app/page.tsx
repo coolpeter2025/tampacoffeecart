@@ -100,7 +100,7 @@ export default function HomePage() {
                   </div>
 
                   {/* Floating Elements */}
-                  <div className="absolute top-10 left-0 animate-float">
+                  <div className="absolute top-10 left-0 animate-float hidden lg:block">
                     <div className="bg-white rounded-xl shadow-lg p-4 flex items-center gap-3">
                       <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                         <CheckCircle className="w-5 h-5 text-green-600" />
